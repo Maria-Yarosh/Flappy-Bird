@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Flappy Bird</title>
+</head>
+<body>
+    <header>
+        <h1>Хлопающая птица</h1>
+    </header>
+
+    <canvas id="canvas"></canvas>
+    <div class="score-block">
+        <p class="score-block__now">SCORE: <span id="js-score"></span></p>
+        <p class="score-block__best">BEST: <span id="js-bestScore"></span></p>
+    </div>
+
+    <script src="./src/config.js"></script>
+    <script src="./src/Enitities/base.js"></script>
+    <script src="./src/Enitities/background.js"></script>
+    <script src="./src/Enitities/ground.js"></script>
+    <script src="./src/Enitities/pipes.js"></script>
+    <script src="./src/Enitities/bird.js"></script>
+    <script src="./src/drawEngine.js"></script>
+    <script src="./src/death.js"></script>
+    <script src="./src/physicsEngines.js"></script>
+    <script src="./src/inputHendlers.js"></script>
+    <script src="./src/resources.js"></script>
+    <script src="./src/game.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
